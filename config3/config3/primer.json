@@ -1,0 +1,20 @@
+/* Это многострочный комментарий */
+{
+    "constants": [
+        {
+            "name": "CONSTANT_ONE",
+            "value": 42
+        },
+        {
+            "name": "CONSTANT_TWO",
+            "value": [1, 2, 3]
+        }
+    ],
+    /* Другой комментарий */
+    "values": [
+        10,
+        20,
+        "^[CONSTANT_ONE]",
+        "^[CONSTANT_TWO]"
+    ]
+}
